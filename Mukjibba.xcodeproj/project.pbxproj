@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7A9C9D52C1835500017C21F /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9C9D42C1835500017C21F /* Action.swift */; };
+		C7A9C9D72C1837330017C21F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9C9D62C1837330017C21F /* Game.swift */; };
 		C7E3E11C2C16FA3F000602C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E3E11B2C16FA3F000602C1 /* AppDelegate.swift */; };
 		C7E3E11E2C16FA3F000602C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E3E11D2C16FA3F000602C1 /* SceneDelegate.swift */; };
 		C7E3E1202C16FA3F000602C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E3E11F2C16FA3F000602C1 /* ViewController.swift */; };
 		C7E3E1232C16FA3F000602C1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C7E3E1222C16FA3F000602C1 /* Base */; };
 		C7E3E1252C16FA44000602C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E3E1242C16FA44000602C1 /* Assets.xcassets */; };
 		C7E3E1282C16FA44000602C1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C7E3E1272C16FA44000602C1 /* Base */; };
+		C7E3E1322C170CA1000602C1 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E3E1312C170CA1000602C1 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C7A9C9D42C1835500017C21F /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		C7A9C9D62C1837330017C21F /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		C7E3E1182C16FA3F000602C1 /* Mukjibba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mukjibba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E3E11B2C16FA3F000602C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7E3E11D2C16FA3F000602C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		C7E3E1242C16FA44000602C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7E3E1272C16FA44000602C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7E3E1292C16FA44000602C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E3E1312C170CA1000602C1 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				C7E3E1242C16FA44000602C1 /* Assets.xcassets */,
 				C7E3E1262C16FA44000602C1 /* LaunchScreen.storyboard */,
 				C7E3E1292C16FA44000602C1 /* Info.plist */,
+				C7E3E1312C170CA1000602C1 /* ResultViewController.swift */,
+				C7A9C9D42C1835500017C21F /* Action.swift */,
+				C7A9C9D62C1837330017C21F /* Game.swift */,
 			);
 			path = Mukjibba;
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7E3E1322C170CA1000602C1 /* ResultViewController.swift in Sources */,
+				C7A9C9D72C1837330017C21F /* Game.swift in Sources */,
 				C7E3E1202C16FA3F000602C1 /* ViewController.swift in Sources */,
 				C7E3E11C2C16FA3F000602C1 /* AppDelegate.swift in Sources */,
+				C7A9C9D52C1835500017C21F /* Action.swift in Sources */,
 				C7E3E11E2C16FA3F000602C1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
